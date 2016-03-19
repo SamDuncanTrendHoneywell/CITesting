@@ -15,7 +15,7 @@ namespace CITestMobileApp
 					Children = {
 						new Label {
 							XAlign = TextAlignment.Center,
-							Text = "Welcome to Xamarin Forms!"
+							Text = "IQVision CI Test Application!"
 						}
 					}
 				}
