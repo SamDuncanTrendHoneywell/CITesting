@@ -1,8 +1,11 @@
-﻿<Properties StartupItem="iOS/CITestMobileApp.iOS.csproj">
+﻿<Properties StartupItem="iOSTests/iOSTests.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.2" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Info.plist">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CITestMobileApp/CITestMobileApp.cs">
     <Files>
       <File FileName="iOS/Info.plist" />
+      <File FileName="iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="CITestMobileApp/CITestMobileApp.cs" Line="18" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
