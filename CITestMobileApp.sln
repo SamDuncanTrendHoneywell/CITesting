@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CITestMobileApp.iOS", "iOS\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CITestMobileApp.Droid", "Droid\CITestMobileApp.Droid.csproj", "{6BA17713-2560-40F1-BE26-0F870053CD89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOSTests", "iOSTests\iOSTests.csproj", "{968B57D9-0033-420C-9D14-311CE365B709}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,17 +53,5 @@ Global
 		{8ABB771E-3BF1-491F-A15D-45648EC6EE8F}.Release|iPhone.Build.0 = Release|Any CPU
 		{8ABB771E-3BF1-491F-A15D-45648EC6EE8F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{8ABB771E-3BF1-491F-A15D-45648EC6EE8F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{968B57D9-0033-420C-9D14-311CE365B709}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
-		{968B57D9-0033-420C-9D14-311CE365B709}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
-		{968B57D9-0033-420C-9D14-311CE365B709}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{968B57D9-0033-420C-9D14-311CE365B709}.Debug|iPhone.Build.0 = Debug|iPhone
-		{968B57D9-0033-420C-9D14-311CE365B709}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
-		{968B57D9-0033-420C-9D14-311CE365B709}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{968B57D9-0033-420C-9D14-311CE365B709}.Release|Any CPU.ActiveCfg = Release|iPhone
-		{968B57D9-0033-420C-9D14-311CE365B709}.Release|Any CPU.Build.0 = Release|iPhone
-		{968B57D9-0033-420C-9D14-311CE365B709}.Release|iPhone.ActiveCfg = Release|iPhone
-		{968B57D9-0033-420C-9D14-311CE365B709}.Release|iPhone.Build.0 = Release|iPhone
-		{968B57D9-0033-420C-9D14-311CE365B709}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
-		{968B57D9-0033-420C-9D14-311CE365B709}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 EndGlobal
