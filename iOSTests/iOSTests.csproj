@@ -106,4 +106,10 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Insights.1.11.2\build\Xamarin.iOS10\Xamarin.Insights.targets" Condition="Exists('..\packages\Xamarin.Insights.1.11.2\build\Xamarin.iOS10\Xamarin.Insights.targets')" />
+  <ItemGroup>
+    <ProjectReference Include="..\CITestMobileApp\CITestMobileApp.csproj">
+      <Project>{8ABB771E-3BF1-491F-A15D-45648EC6EE8F}</Project>
+      <Name>CITestMobileApp</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

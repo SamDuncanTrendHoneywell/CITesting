@@ -8,6 +8,8 @@ namespace CITestMobileApp
 	{
 		public App ()
 		{
+			Book book = new Book("a", "b");
+
 			// The root page of your application
 			MainPage = new ContentPage {
 				Content = new StackLayout {
@@ -36,6 +38,18 @@ namespace CITestMobileApp
 		{
 			// Handle when your app resumes
 		}
+	}
+	public class Book
+	{
+		public string title;
+		public string author;
+
+		public Book(string _title, string _author)
+		{
+			title = _title;
+			author = _author;
+		}
+		
 	}
 }
 
